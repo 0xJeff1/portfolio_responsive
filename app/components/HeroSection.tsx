@@ -21,15 +21,24 @@ const HeroSection: React.FC = () => {
             className="text-5xl md:text-7xl mt-2 tracking-tighter"
           />
         </h1>
-        <p className="mt-6 text-base md:text-lg text-zinc-600 dark:text-zinc-400 font-medium max-w-xl leading-relaxed">
-          I’m a passionate{" "}
-          <span className="text-purple-600 dark:text-purple-400 font-bold">
-            software developer
-          </span>{" "}
-          with expertise in building responsive web applications. I enjoy
-          turning complex problems into simple, beautiful, and intuitive designs.
-          Let&apos;s work together to create something amazing!
-        </p>
+          <p className="mt-6 text-base md:text-lg text-zinc-600 dark:text-zinc-400 font-medium max-w-xl leading-relaxed">
+            I’m a passionate{" "}
+            <span className="text-purple-600 dark:text-purple-400 font-bold">
+              software developer
+            </span>{" "}
+            and a student at{" "}
+            <a
+              href="https://1337.ma"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-600 dark:text-purple-400 font-bold underline"
+            >
+              1337 School
+            </a>
+            , with expertise in building web applications. I enjoy
+            turning complex problems into simple and intuitive solutions.
+            Let&apos;s work together to create something amazing!
+          </p>
         {/* Know More Button */}
         {/* <button className="btn btn-primary mt-5 flex items-center">
           Resume <IconDownload />
