@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
         <h1 className="text-4xl md:text-6xl font-black tracking-tight text-zinc-900 dark:text-zinc-50 leading-tight">
           Hi, my name is
           <SparklesText
-            text="0x_jeff"
+            text="Abdallah Jeftani"
             className="text-5xl md:text-7xl mt-2 tracking-tighter"
           />
         </h1>
@@ -34,7 +34,7 @@ const HeroSection: React.FC = () => {
         {/* <button className="btn btn-primary mt-5 flex items-center">
           Resume <IconDownload />
         </button> */}
-        <a href={resume} download="Priyanshu_Gupta_Resume.pdf">
+        <a href={resume} download="Abdallah_Jeftani_Resume.pdf">
           <button
             className="bg-black dark:bg-zinc-50 text-center w-48 rounded-2xl h-14 relative text-white dark:text-black text-xl font-semibold group mt-5"
             type="button"
