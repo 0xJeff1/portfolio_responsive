@@ -69,7 +69,7 @@ const Footer: React.FC<FooterProps> = ({ isIntroDone }) => {
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
           >
-            0x_jeff
+            0x_jeff1111
           </a>
         </p>
 
