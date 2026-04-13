@@ -164,7 +164,7 @@ export default function Index() {
         }`}
       >
         <HeroSection />
-        <TextRevealByWord text="Hi, my name is . I am a passionate web developer with expertise in building responsive and dynamic web applications. My work focuses on creating user-centric designs with seamless functionality. I'm continuously learning and evolving in the field of technology." />
+        <TextRevealByWord text="Hi, I'm Abdallah Jeftani, also known as 0xjeff. I'm a student at 1337 School and a software developer focused on web development, building dynamic and performant applications.I've worked on several web projects and Common Core 42 projects, strengthening my skills in algorithms, system programming, and problem-solving. I'm continuously learning and improving in the tech field." />
         <AnimatedDivider
           alignment="center"
           text="Skills"
