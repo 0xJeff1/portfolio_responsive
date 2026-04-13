@@ -3,6 +3,8 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { useOutletContext } from "@remix-run/react";
 import { IconDownload } from "@tabler/icons-react";
 import resume from "~/assets/resume.pdf";
+import { SparklesText } from "~/components/ui/SparklesText";
+
 interface ContextType {
   isIntroDone: boolean;
 }
@@ -11,15 +13,22 @@ const HeroSection: React.FC = () => {
   return (
     <div className="flex py-10 flex-col-reverse gap-8 md:flex-row items-center justify-between w-full md:py-0">
       {/* Text Section */}
-      <div className="w-full text-center md:text-left mb-6 md:mb-0">
-        <h1 className="text-3xl md:text-5xl font-bold">
-          Hi, my name is Priyanshu Gupta
+      <div className="w-full text-center md:text-left mb-6 md:mb-0 flex flex-col items-center md:items-start z-10">
+        <h1 className="text-4xl md:text-6xl font-black tracking-tight text-zinc-900 dark:text-zinc-50 leading-tight">
+          Hi, my name is
+          <SparklesText
+            text="0x_jeff"
+            className="text-5xl md:text-7xl mt-2 tracking-tighter"
+          />
         </h1>
-        <p className="mt-4 text-base md:text-xl text-zinc-600">
-          I’m a passionate software developer with expertise in building
-          responsive web applications. I enjoy turning complex problems into
-          simple, beautiful, and intuitive designs. Let&apos;s work together to
-          create something amazing!
+        <p className="mt-6 text-base md:text-lg text-zinc-600 dark:text-zinc-400 font-medium max-w-xl leading-relaxed">
+          I’m a passionate{" "}
+          <span className="text-purple-600 dark:text-purple-400 font-bold">
+            software developer
+          </span>{" "}
+          with expertise in building responsive web applications. I enjoy
+          turning complex problems into simple, beautiful, and intuitive designs.
+          Let&apos;s work together to create something amazing!
         </p>
         {/* Know More Button */}
         {/* <button className="btn btn-primary mt-5 flex items-center">

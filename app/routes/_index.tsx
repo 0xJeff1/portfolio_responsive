@@ -164,7 +164,7 @@ export default function Index() {
         }`}
       >
         <HeroSection />
-        <TextRevealByWord text="Hi, my name is Priyanshu Gupta. I am a passionate web developer with expertise in building responsive and dynamic web applications. My work focuses on creating user-centric designs with seamless functionality. I'm continuously learning and evolving in the field of technology." />
+        <TextRevealByWord text="Hi, my name is . I am a passionate web developer with expertise in building responsive and dynamic web applications. My work focuses on creating user-centric designs with seamless functionality. I'm continuously learning and evolving in the field of technology." />
         <AnimatedDivider
           alignment="center"
           text="Skills"
